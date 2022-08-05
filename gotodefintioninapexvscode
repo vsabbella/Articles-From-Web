@@ -1,0 +1,7 @@
+Goto Definition / cmd+click on filename/methodname in mac vscode does not work for salesforce apex : 
+Fix : Open settings.json in vscode and add the below line 
+   "salesforcedx-vscode-apex.java.home":"/Library/Java/JavaVirtualMachines/zulu-17.jdk/Contents/Home"
+    
+    
+    Make sure the jdk is installed before making above change. 
+   
